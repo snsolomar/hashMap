@@ -8,5 +8,12 @@ let secondHashMap = new Map([
     [5, "fifth"]
 ]);
 
-console.log("firstHashMap: ", firstHashMap);
-console.log("secondHashMap: ", secondHashMap);
+// console.log("firstHashMap: ", firstHashMap);
+// console.log("secondHashMap: ", secondHashMap);
+
+// get value of key 2 
+// console.log(".get(key): ", secondHashMap.get(2));
+
+// check to see if key 2 and then key 3 are in the hashmap
+console.log(".has(key): (2)", secondHashMap.has(2));
+console.log(".has(key): (3)", secondHashMap.has(3));
